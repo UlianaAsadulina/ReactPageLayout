@@ -2,13 +2,13 @@ import Header from "./Header";
 function EmployeePage() {
   return (
     <div style={{ border: "solid brown", width: "50%" }}>
-      Employee Page
       <Header />
       <table
         style={{
           border: "1px solid grey",
           margin: "10px",
-          borderCollapse: "separate",
+          borderCollapse: "collapse",
+          width: "95%",
         }}
       >
         <tbody>
@@ -30,15 +30,15 @@ function EmployeePage() {
               <p>Title</p>
             </td>
           </tr>
-          <tr style={{ padding: "10px" }}>
+          <tr style={{ borderBottom: "1px solid gray", padding: "10px" }}>
             <h4>Call Office </h4>
             <p>Number </p>
           </tr>
-          <tr style={{ padding: "10px" }}>
+          <tr style={{ borderBottom: "1px solid gray", padding: "10px" }}>
             <h4>Call Mobile </h4>
             <p>Number </p>
           </tr>
-          <tr style={{ padding: "10px" }}>
+          <tr style={{ borderBottom: "1px solid gray", padding: "10px" }}>
             <h4>SMS </h4>
             <p>Number </p>
           </tr>

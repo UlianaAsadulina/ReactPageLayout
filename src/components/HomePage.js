@@ -6,7 +6,6 @@ import EmployeeList from "./EmployeeList";
 function HomePage() {
   return (
     <div style={{ border: "solid orange", width: "50%" }}>
-      Home page
       <Header />
       <SearchBar />
       <EmployeeList></EmployeeList>
