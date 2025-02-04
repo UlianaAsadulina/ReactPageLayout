@@ -1,4 +1,11 @@
 .App {
+  border: 1px solid black;
+  display: flex;
   font-family: sans-serif;
   text-align: center;
 }
+
+/* .HomePage {
+  border: "solid orange";
+  width: "50%";
+} */
