@@ -1,6 +1,7 @@
 import "../styles.css";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
+import EmployeeList from "./EmployeeList";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       Home page
       <Header />
       <SearchBar />
+      <EmployeeList></EmployeeList>
     </div>
   );
 }
